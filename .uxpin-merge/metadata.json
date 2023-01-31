@@ -1,0 +1,244 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Button/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "button": {
+                  "name": "Button",
+                  "props": {
+                    "label": "Neutral"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The content of the component.",
+              "isRequired": false,
+              "name": "assistiveText",
+              "type": {
+                "name": "custom",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "buttonRef",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hint",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "iconCategory",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "iconName",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "iconPosition",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "left"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "right"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "iconSize",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "x-small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "variant",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "base"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "link"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "neutral"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "brand"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "outline-brand"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "destructive"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "text-destructive"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "icon"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "label",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "Salesforce Lightning",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "40da2b43a55be70905a83e0d189dbec234a5a9e4",
+    "paths": {
+      "configPath": "/Users/gaustria/Documents/UXPin Merge/merge-salesforce-lightning/uxpin.config.js",
+      "projectRoot": "/Users/gaustria/Documents/UXPin Merge/merge-salesforce-lightning"
+    }
+  }
+}
